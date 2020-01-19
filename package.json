@@ -1,0 +1,24 @@
+{
+  "name": "template-gas",
+  "version": "1.0.0",
+  "description": "template of google app script",
+  "scripts": {
+    "test": "jest",
+    "push": "clasp push",
+    "do-process-in-gas": "bin/do_process_in_gas.sh"
+  },
+  "author": "h-haraguchi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h-haraguchi/template-gas.git"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.9",
+    "@types/jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.5"
+  }
+}

@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "push": "clasp push",
-    "do-process-in-gas": "bin/do_process_in_gas.sh"
+    "do-process-in-gas": "bin/do_process_in_gas.sh",
+    "ts2gas": "node bin/ts2gas.js"
   },
   "author": "h-haraguchi",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "@types/jest": "^24.9.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.3.0",
+    "ts2gas": "^3.4.4",
     "typescript": "^3.7.5"
   }
 }
